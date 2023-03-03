@@ -12,6 +12,8 @@ module.exports = (options = {}) => {
     infuraOptimism: [`https://optimism-mainnet.infura.io/v3/${options.infuraId}`],
     infuraSepolia: [`wss://sepolia.infura.io/ws/v3/${options.infuraId}`, `https://sepolia.infura.io/v3/${options.infuraId}`],
     gnosis: ['https://rpc.gnosischain.com'],
-    optimism: ['https://mainnet.optimism.io']
+    optimism: ['https://mainnet.optimism.io'],
+    pulseChain: ['https://rpc.pulsechain.com'],
+    pulseChainTestnetV3: ['https://rpc.v3.testnet.pulsechain.com']
   }
 }

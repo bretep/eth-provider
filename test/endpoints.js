@@ -17,7 +17,9 @@ const chainIdMap = {
   infuraOptimism: '0xa',
   infuraSepolia: '0xaa36a7',
   gnosis: '0x64',
-  optimism: '0xa'
+  optimism: '0xa',
+  pulseChain: '0x171',
+  pulseChainTestnetV3: '0x3ae'
 }
 
 describe('Mainnet - sending net_version', () => {
